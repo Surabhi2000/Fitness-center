@@ -156,10 +156,11 @@ a.middle:hover:before {
     border-right:0
 }
 @media (max-width: 767px){
-    .coach-profile{width:170px
+    .coach-profile{
+        width:fit-content;
     }
 }.coach-profile .profile-img{
-    width:95px;
+    width:fit-content;
     height:95px;
     border-radius:81.5px;
     overflow:hidden
@@ -171,7 +172,7 @@ a.middle:hover:before {
     cursor:pointer
 }
 .coach-profile .profile-heading{
-    font-size:14px;
+    font-size:12px;
     font-weight:normal;
     color:#000000;
     margin:15px 0 10px;
@@ -182,7 +183,8 @@ a.middle:hover:before {
     text-align:center
 }
 .coach-profile .package-type{
-    width:74px;
+    width:fit-content;
+    padding: 0 20px;
     height:20px;
     font-size:12px;
     font-weight:bold;
@@ -192,21 +194,24 @@ a.middle:hover:before {
     line-height:20px
 }
 .coach-profile .trained{
-    color:#9b9b9b;font-size:12px
+    color:#9b9b9b;
+    display: flex;
+    font-size:10px;
 }
 .coach-profile .slot-detail{
     height:6px;
     border-radius:5px;
     background-color:#dddddd;
-    flex:1;margin:3px 10px;
-    position:relative
+    flex:1;
+    margin:3px 10px;
+    position:relative;
 }
 .coach-profile .slot-detail span{
     position:absolute;
     background-color:#1478f6;
     height:6px;
     border-radius:5px;
-    left:0
+    left:0;
 }
 .coach-profile .slot-head,.coach-profile .slot-available{
     font-size:11px;color:#000000
